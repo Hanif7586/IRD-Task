@@ -1,16 +1,16 @@
-# ird_task
+Housecard Widget
+The Housecard widget displays property listings in two formats:
 
-A new Flutter project.
+Horizontal House Cards: A horizontally scrollable list displaying the property's image, title, address, and distance.
+Recommendation Cards: A vertical list of cards with detailed property information such as price, bedrooms, and bathrooms.
 
-## Getting Started
+Features:
+InkWell for tap detection, enabling navigation to a detailed property view (DetailsView).
+GetX for simplified navigation using Get.to().
+Property data is displayed dynamically (hardcoded for now, can be fetched from an API).
+Custom text styling for improved readability.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Enhancements:
+Refactor data handling to fetch properties from an API or database.
+Replace repetitive property entries with unique data.
+Reuse card widgets for consistency in design.
